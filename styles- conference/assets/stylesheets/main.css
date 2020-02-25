@@ -1,3 +1,31 @@
-p {
-  display: inline-block;
+
+ul{
+  border: black;
+  border-style:solid;
+  border-width: 3px;
+}
+
+ul#redUl{
+  border: #ff9e36;
+  border-style:solid;
+  border-width: 3px;
+}
+ul li.firstItem{
+  color: aqua;
+}
+li#selected_menu_item{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+a {
+  color: #0807b1 ;
+  text-decoration: none;
+}
+a:hover{
+  color: #ff9e36;
+
+}
+h3:hover{
+  text-decoration: underline;
 }
